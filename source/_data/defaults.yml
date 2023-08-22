@@ -57,7 +57,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "cssday 2024 è la 10° edizione della conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.
+  geninfo_description: "cssday 2024 è la 10° edizione della conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del rinascimento del web.
   </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
   </br> <br />cssday 2024 si svolge Venerdì 5 Aprile in modalità <b>ibrida</b>: di persona a Faenza e online."
   # </br> <br />Oltre alla conferenza, quest'anno c'è un <a href='https://2022.cssday.it/workshop/tipografia_css.html'>workshop</a> dedicato alla Tipografia con i CSS, che si svolgerà <b>online</b> nei giorni 11, 12 e 13 Aprile 2022.
