@@ -6,11 +6,11 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-  talks_speakers: talk e speaker
+  # talks_speakers: talk e speaker
   # scommentare per generare pagina
-  schedule: programma
+  # schedule: programma
   # menu item for workshop
-  workshop: workshop
+  # workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
@@ -26,7 +26,7 @@ welcome_submenu:
   where: dove e come
   # where: where
   # delete this row to take out of the menu
-  cfp: call for papers
+  # cfp: call for papers
 
 # stylesheets loaded in the <head>
 stylesheets:

@@ -24,38 +24,43 @@ team:
   intro: ""
   members:
     member_1:
-      name: "Giovanna Ferrari"
-      role: "sponsor management"
-      pic_filename: "giovanna.jpg"
+      name: "Matteo Beccati"
+      role: "GrUSP Board<br>Member"
+      pic_filename: "matteo_yellow.jpg"
     member_2:
-      name: "Giorgio Fochesato"
-      role: "community manager"
-      pic_filename: "giorgio.jpg"
+      name: "Cesare D'Amico"
+      role: "GrUSP Board<br>Member"
+      pic_filename: "cesare_yellow.jpg"
     member_3:
+      name: "Giovanna Ferrari"
+      role: "Sponsor<br>Manager"
+      pic_filename: "giovanna_yellow.jpg"
+    member_5:
+      name: "Giorgio Fochesato"
+      role: "Community<br>Manager"
+      pic_filename: "giorgio_yellow.jpg"
+    member_6:
       name: "Francesco Fullone"
-      role: "troublemaker"
-      pic_filename: "fullo.jpg"
-    member_4:
+      role: "Trouble<br>Maker"
+      pic_filename: "fullo_yellow.jpg"
+    member_7:
       name: "Matteo Guidotto"
       role: "comitato tecnico"
       pic_filename: "matteo-guidotto.jpg"
-    member_5:
-      name: "Lara Lombardi"
-      role: "marketing manager"
-      pic_filename: "lara.jpg"
-    member_6:
-      name: "Giulia Tosato"
-      role: "event manager"
-      pic_filename: "giulia.jpg"
-    member_7:
-      name: "Matteo Beccati"
-      role: "GrUSP Board Member"
-      pic_filename: "matteo.jpg"
     member_8:
-      name: "Cesare D'Amico"
-      role: "GrUSP Board Member"
-      pic_filename: "cesare.jpg"
+      name: "Lara Lombardi"
+      role: "Marketing<br>Manager"
+      pic_filename: "lara_yellow.jpg"
     member_9:
       name: "Daniel Londero"
-      role: "GrUSP Board Member"
-      pic_filename: "daniel.jpg"
+      role: "GrUSP Board<br>Member"
+      pic_filename: "daniel_yellow.jpg"
+    member_10:
+      name: "Francesco Mancini"
+      role: "Regia e Videor"
+      pic_filename: "francesco_yellow.jpg"
+    member_11:
+      name: "Giulia Tosato"
+      role: "Boss in Charge"
+      pic_filename: "giulia_yellow.jpg"
+    
