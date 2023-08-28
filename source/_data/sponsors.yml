@@ -14,16 +14,17 @@ sponsors_block_title: "Grazie ai nostri sponsor!"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# gold:
-#  sponsor1:
-#    name: "workwave"
-#    logo_filename: "workwave.svg"
-#    site_url: "https://www.workwave.com/"
-# silver:
-#  sponsor0:
-#    name: "Daruma"
-#    logo_filename: "daruma.svg"
-#    site_url: "http://www.darumahq.com/"
+gold:
+ sponsor0:
+   name: "Daruma"
+   logo_filename: "daruma.svg"
+   site_url: "http://www.darumahq.com/"
+silver:
+ sponsor1:
+   name: "workwave"
+   logo_filename: "workwave.svg"
+   site_url: "https://www.workwave.com/"
+
 #  sponsor4:
 #    name: "Madisoft"
 #    logo_filename: "madisoft.svg"

@@ -57,10 +57,10 @@ team:
       pic_filename: "daniel_yellow.jpg"
     member_10:
       name: "Francesco Mancini"
-      role: "Regia e Videor"
+      role: "Regia e Video"
       pic_filename: "francesco_yellow.jpg"
     member_11:
       name: "Giulia Tosato"
-      role: "Boss in Charge"
+      role: "Event Manager"
       pic_filename: "giulia_yellow.jpg"
-    
+

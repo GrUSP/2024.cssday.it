@@ -6,6 +6,7 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
+  welcome/cfp.html: call for paper
   # talks_speakers: talk e speaker
   # scommentare per generare pagina
   # schedule: programma
@@ -14,8 +15,8 @@ menu:
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-workshop_submenu:
-   font_variabili: Tipografia web e font variabili
+# workshop_submenu:
+#    font_variabili: Tipografia web e font variabili
 #   workshop_2: sample second workshop
 
 # welcome submenu
@@ -26,7 +27,7 @@ welcome_submenu:
   where: dove e come
   # where: where
   # delete this row to take out of the menu
-  # cfp: call for papers
+  cfp: call for paper
 
 # stylesheets loaded in the <head>
 stylesheets:
