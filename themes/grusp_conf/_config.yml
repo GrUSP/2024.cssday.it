@@ -10,12 +10,12 @@ menu:
   # scommentare per generare pagina
   # schedule: programma
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#    design-system: Introduzione ai design system
+workshop_submenu:
+   design-system: Introduzione ai design system
 
 
 # welcome submenu
