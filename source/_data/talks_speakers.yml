@@ -61,7 +61,7 @@ speaker_4: &eleonorarocchi
 speaker_5: &enricogiacomazzi
   speaker_in_speaker_lists: true
   speaker_name: Enrico Giacomazzi
-  speaker_pic_filename: enrico-giacomazzi.png
+  speaker_pic_filename: enrico-giacomazzi .png
   speaker_role: Freelance consultant
   speaker_bio: Consulente fullstack freelance, specializzato nell'ecosistema
     microsoft e javascript. Trainer Angular, React, Nodejs e .NET. Docente di
