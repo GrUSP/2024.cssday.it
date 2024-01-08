@@ -34,12 +34,9 @@ speaker_3: &danielabonvini
   speaker_name: Daniela Bonvini
   speaker_pic_filename: daniela-bonvini.png
   speaker_role: Frontend developer @ SparkFabrik
-  speaker_bio: Having studied foreign languages for many years, I stumbled upon
-    HTML and CSS and have been fascinated by the frontend side of programming
-    ever since, marveling at the enormous creativity this world offers. I like
-    to think of the web as a blank canvas, and I'm always excited to craft
-    something new with code. I love the challenge of creating something visually
-    appealing and functional that people can interact with and enjoy.
+  speaker_bio: "Dopo aver studiato lingue straniere per molti anni, sono incappata nel misterioso mondo di HTML e CSS e da allora sono rimasta affascinata dal lato frontend della programmazione, meravigliandomi dell'enorme creatività che questo universo offre.
+Mi piace pensare al web come a una tela bianca e sono sempre entusiasta di creare qualcosa di nuovo con il codice.
+Amo la sfida di codificare qualcosa da zero e vederlo man mano prendere vita."
   speaker_twitter: ""
   speaker_github: https://github.com/daniela-bonvini
   speaker_linkedin: https://www.linkedin.com/in/daniela-bonvini/
