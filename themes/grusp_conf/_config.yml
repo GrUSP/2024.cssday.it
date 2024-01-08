@@ -1,4 +1,4 @@
-basedir: /
+ùbasedir: /
 
 # html lang
 language: "it"
@@ -22,6 +22,7 @@ workshop_submenu:
 welcome_submenu:
   about: about
   coc: codice di condotta
+  safety: salute pubblica
   scholarships: scholarship
   where: dove e come
   # where: where
@@ -30,8 +31,8 @@ welcome_submenu:
 
 # stylesheets loaded in the <head>
 stylesheets:
-- /assets/css/global.css
+  - /assets/css/global.css
 
 # scripts loaded in the end of the body / commented out to prevent errors in compiling layout.pug
 scripts:
-- /assets/js/menu.js
+  - /assets/js/menu.js
