@@ -38,10 +38,14 @@ bronze:
     logo_filename: "buildo.svg"
     site_url: "https://www.buildo.io/"
   sponsor3:
+    name: "Gellify"
+    logo_filename: "gellify.svg"
+    site_url: "https://gellify.com/home/"
+  sponsor4:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor4:
+  sponsor5:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
