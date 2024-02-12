@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -72,10 +72,10 @@ speaker_6: &kevinshallvari
   speaker_in_speaker_lists: true
   speaker_name: Kevin Shallvari
   speaker_pic_filename: kevin-shallvari.png
-  speaker_role: FrontEnd Dev @ Tot.Money
+  speaker_role: FrontEnd Dev @ GELLIFY
   speaker_bio: "Sviluppatore FrontEnd specializzato in ReactJS. Nel tempo
     libero dj e produttore di musica elettronica, potreste trovare post su di me
-    strappa lacrime. "
+    strappa lacrime."
   speaker_twitter: ""
   speaker_github: https://github.com/Kevin-Shallvari
   speaker_linkedin: https://www.linkedin.com/in/kevin-shallvari-a6177b1b8/
@@ -84,7 +84,7 @@ speaker_7: &massimoartizzu
   speaker_in_speaker_lists: true
   speaker_name: Massimo Artizzu
   speaker_pic_filename: massimo-artizzu.png
-  speaker_role: "Web Architect @ Antreem "
+  speaker_role: "Web Architect @ GELLIFY"
   speaker_bio: CSS Zen Garden mi colpì sulla via di Damasco ai tempi di quando
     stavo imparando a sviluppare per il web. Da allora, il CSS ha fatto passi da
     gigante, ma cercare di capirne la potenza è sempre stato un mio pallino.
@@ -170,30 +170,171 @@ tracks:
 
 days:
   day_1:
-    date: 2021-03-11T09:15+01:00
+    date: 2024-04-05T09:30+02:00
     title: "Day 1"
     talks:
-      talk_1:
+# service
+      checkin:
         item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T09:15+01:00
-        end_datetime: 2020-03-11T09:30+01:00
-        talk_title: "Welcome!"
-      talk_2:
+        start_datetime: 2024-04-05T09:00+02:00
+        end_datetime: 2024-04-05T09:30+02:00
+        talk_title: "Check-in"
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
+        start_datetime: 2024-04-05T09:30+02:00
+        end_datetime: 2024-04-05T09:45+02:00
+        talk_title: "Intro by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2024-04-05T10:55+02:00
+        end_datetime: 2024-04-05T11:25+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2024-04-05T13:10+02:00
+        end_datetime: 2024-04-05T14:30+02:00
+        talk_title: "Pausa pranzo"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2024-04-05T15:40+02:00
+        end_datetime: 2024-04-05T16:10+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2024-04-05T17:20+02:00
+        end_datetime: 2024-04-05T17:30+02:00
+        talk_title: "Saluti da GrUSP"
 
 
       # talk
+      css-animazioni-e-quella-brutta-cosa-chiamata-fisica-5:
+        item_type: talk
+        track: *track_1
+        talk_title: Css, animazioni e quella brutta cosa chiamata fisica
+        talk_description: Con css o con librerie come GSAP o Motion Framer è possibile fare cose
+          spettacolari nel campo dell'animazione, ma ci sono alcune situazioni in
+          cui una curva di bezier non è sufficiente,. Per essere più realistici
+          possibile in tali casi, dobbiamo "purtroppo" scontrarci con un oscuro mare
+          di formule, che dramma! In questo talk cercheremo di fare un po' di luce
+          sulla teoria necessaria (senza esagerare!) per sviluppare animazioni che
+          simulano il comportamento di oggetti dotati inerzia, attriti e forze di
+          interazione.
+        talk_video_url: ""
+        start_datetime: 2024-04-05T09:45+02:00
+        end_datetime: 2024-04-05T10:20+02:00
+        speakers:
+          speaker_1: *enricogiacomazzi
+
+      css-4-future:-che-futuro-ci-attende-4:
+        item_type: talk
+        track: *track_1
+        talk_title: "CSS 4 Future: che futuro ci attende?"
+        talk_description: Ci addentreremo nei misteri di CSS4, versione attesa e avvolta da mistero,
+          che suscita tanta curiosità quanta incertezza. Il suo arrivo sembrava
+          improbabile, ma il dibattito si è riaperto con grande fermento.
+          Perlustreremo probabili innovazioni, rivedremo i motivi per i quali
+          pensavamo non sarebbe mai arrivata una nuova versione, e condivideremo
+          spunti e riflessioni sul futuro della modellazione dello stile.
+        talk_video_url: ""
+        start_datetime: 2024-04-05T10:20+02:00
+        end_datetime: 2024-04-05T10:55+02:00
+        speakers:
+          speaker_1: *eleonorarocchi
+
+      come-distruggere-l'accessibilita-2:
+        item_type: talk
+        track: *track_1
+        talk_title: Come distruggere l'accessibilità
+        talk_description: L'accessibilità dei siti web è una tematica sempre più discussa e
+          legiferata, ma la sua applicazione pratica è sempre molto blanda. Andremo
+          a scoprire con ironia tutto quello che facciamo per comportarci come
+          inconsapevoli ribelli e combatterla fino a distruggerla.
+        talk_video_url: ""
+        start_datetime: 2024-04-05T11:25+02:00
+        end_datetime: 2024-04-05T12:00+02:00
+        speakers:
+          speaker_1: *claudiocaciagli
+
+      apca.-e-tutto-ffd700-quel-che-luccica-1:
+        item_type: talk
+        track: *track_1
+        talk_title: "APCA. È tutto #FFD700 quel che luccica?"
+        talk_description: L’Accessible Perceptual Contrast Algorithm (APCA) si presenta come la
+          nuova frontiera nel mondo dell’accessibilità dei colori. Ma come funziona
+          davvero? Insieme scopriremo cosa lo differenzia dallo standard attuale, ne
+          indagheremo i vantaggi e gli svantaggi e definiremo le 5 cose da fare per
+          prepararsi all’arrivo delle WCAG 3.
+        talk_video_url: ""
+        start_datetime: 2024-04-05T12:00+02:00
+        end_datetime: 2024-04-05T12:35+02:00
+        speakers:
+          speaker_1: *agneseragucci
+
+
+      tipografia-fluida-accessibile-8:
+        item_type: talk
+        track: *track_1
+        talk_title: Tipografia fluida accessibile
+        talk_description: "La tipografia fluida, nata con l'introduzione delle unità di misura
+          relative alla viewport (soprattutto vw) e della funzione calc(), è
+          diventata un'efficiente alternativa alle media query nel responsive
+          design, grazie soprattutto alla funzione clamp(). Tuttavia, l'adozione
+          cieca di questa tecnica può compromettere l'accessibilità di un sito web:
+          le persone con ipovisione, per leggere i testi presenti su una pagina web,
+          hanno normalmente bisogno di ingrandirli, ma non sempre utilizzando la
+          tipografia fluida è possibile ridimensionarli a sufficienza. Quello che
+          possiamo fare è però determinare se la formula che permette di ottenere la
+          font-size di un certo testo rispetta le linee guida del WCAG a priori,
+          senza cioè doverla prima implementare e poi testare manualmente. Durante
+          la presentazione, esploreremo le basi della tipografia fluida,
+          analizzeremo quali sfide comporta per l'accessibilità e cosa tenere
+          presente quando si progetta o si implementa in modo accessibile un sistema
+          tipografico di questo tipo."
+        talk_video_url: ""
+        start_datetime: 2024-04-05T12:35+02:00
+        end_datetime: 2024-04-05T13:10+02:00
+        speakers:
+          speaker_1: *stefanominoia
+
+      utopia-system-a-volte-i-sogni-diventano-realta-6:
+        item_type: talk
+        track: *track_1
+        talk_title: Utopia system, a volte i sogni diventano realtà
+        talk_description: "Utopia è un design system che prova ad eliminare i più acerrimi nemici di
+          uno sviluppatore CSS: i breakpoint. In questo talk vedremo assieme come
+          implementare i concetti di questo fantastico design system e come può
+          aiutarci ad eliminare le frizioni tra dev e designers"
+        talk_video_url: ""
+        start_datetime: 2024-04-05T14:30+02:00
+        end_datetime: 2024-04-05T15:05+02:00
+        speakers:
+          speaker_1: *kevinshallvari
+
+      css-layout-ma-come-siete-cambiati-9:
+        item_type: talk
+        track: *track_1
+        talk_title: CSS Layout ma come siete cambiati?
+        talk_description: Immagina un mondo in cui creare layout CSS sia così semplice da sembrare
+          un gioco da ragazzi. Sembra un sogno, vero? Ma molti/e developer ancora
+          lottano per allineare due semplici div. È tempo di spazzare via le
+          complicazioni! Grid e FlexBox sono i nostri nuovi Marvel, strumenti
+          potenti che molti ancora non sanno sfruttare a pieno. In questo viaggio,
+          scopriremo come i CSS Framework siano diventati i nostri 'salvatori'
+          precipitati dal cielo, ma è ora di riappropriarsi del potere del CSS puro.
+          Ripercorriamo insieme la storia intricata dei layout CSS, per poi
+          esplorare come le nuove funzionalità possano semplificarci la vita. Dopo
+          questo talk, la dipendenza dai framework sarà solo un ricordo lontano e
+          avrai gli strumenti per domarli, così ti resterà più tempo per le
+          dipendenze che contano… tipo la Nutella :)
+        talk_video_url: ""
+        start_datetime: 2024-04-05T15:05+02:00
+        end_datetime: 2024-04-05T15:40+02:00
+        speakers:
+          speaker_1: *lucadelpuppo
+
       senza-classe-ma-con-stile:-scrivere-css-oggi-7:
         item_type: talk
         track: *track_1
@@ -211,8 +352,8 @@ days:
           più accessibili, meno problematici. Vediamo come si può vincere la sfida
           degli stili ben organizzati.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-04-05T16:10+02:00
+        end_datetime: 2024-04-05T16:45+02:00
         speakers:
           speaker_1: *massimoartizzu
 
@@ -237,134 +378,11 @@ days:
           "Developerus Neanderthalus" a "Homo Sapiens CSSensis", per intraprendere
           finalmente un viaggio nell'infinito spazio dello stile a cascata.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-04-05T16:45+02:00
+        end_datetime: 2024-04-05T17:20+02:00
         speakers:
           speaker_1: *danielabonvini
 
-      come-distruggere-l'accessibilita-2:
-        item_type: talk
-        track: *track_1
-        talk_title: Come distruggere l'accessibilità
-        talk_description: L'accessibilità dei siti web è una tematica sempre più discussa e
-          legiferata, ma la sua applicazione pratica è sempre molto blanda. Andremo
-          a scoprire con ironia tutto quello che facciamo per comportarci come
-          inconsapevoli ribelli e combatterla fino a distruggerla.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *claudiocaciagli
-
-      css-layout-ma-come-siete-cambiati-9:
-        item_type: talk
-        track: *track_1
-        talk_title: CSS Layout ma come siete cambiati?
-        talk_description: Immagina un mondo in cui creare layout CSS sia così semplice da sembrare
-          un gioco da ragazzi. Sembra un sogno, vero? Ma molti/e developer ancora
-          lottano per allineare due semplici div. È tempo di spazzare via le
-          complicazioni! Grid e FlexBox sono i nostri nuovi Marvel, strumenti
-          potenti che molti ancora non sanno sfruttare a pieno. In questo viaggio,
-          scopriremo come i CSS Framework siano diventati i nostri 'salvatori'
-          precipitati dal cielo, ma è ora di riappropriarsi del potere del CSS puro.
-          Ripercorriamo insieme la storia intricata dei layout CSS, per poi
-          esplorare come le nuove funzionalità possano semplificarci la vita. Dopo
-          questo talk, la dipendenza dai framework sarà solo un ricordo lontano e
-          avrai gli strumenti per domarli, così ti resterà più tempo per le
-          dipendenze che contano… tipo la Nutella :)
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *lucadelpuppo
-
-      css-animazioni-e-quella-brutta-cosa-chiamata-fisica-5:
-        item_type: talk
-        track: *track_1
-        talk_title: Css, animazioni e quella brutta cosa chiamata fisica
-        talk_description: Con css o con librerie come GSAP o Motion Framer è possibile fare cose
-          spettacolari nel campo dell'animazione, ma ci sono alcune situazioni in
-          cui una curva di bezier non è sufficiente,. Per essere più realistici
-          possibile in tali casi, dobbiamo "purtroppo" scontrarci con un oscuro mare
-          di formule, che dramma! In questo talk cercheremo di fare un po' di luce
-          sulla teoria necessaria (senza esagerare!) per sviluppare animazioni che
-          simulano il comportamento di oggetti dotati inerzia, attriti e forze di
-          interazione.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *enricogiacomazzi
-
-      tipografia-fluida-accessibile-8:
-        item_type: talk
-        track: *track_1
-        talk_title: Tipografia fluida accessibile
-        talk_description: "La tipografia fluida, nata con l'introduzione delle unità di misura
-          relative alla viewport (soprattutto vw) e della funzione calc(), è
-          diventata un'efficiente alternativa alle media query nel responsive
-          design, grazie soprattutto alla funzione clamp(). Tuttavia, l'adozione
-          cieca di questa tecnica può compromettere l'accessibilità di un sito web:
-          le persone con ipovisione, per leggere i testi presenti su una pagina web,
-          hanno normalmente bisogno di ingrandirli, ma non sempre utilizzando la
-          tipografia fluida è possibile ridimensionarli a sufficienza. Quello che
-          possiamo fare è però determinare se la formula che permette di ottenere la
-          font-size di un certo testo rispetta le linee guida del WCAG a priori,
-          senza cioè doverla prima implementare e poi testare manualmente. Durante
-          la presentazione, esploreremo le basi della tipografia fluida,
-          analizzeremo quali sfide comporta per l'accessibilità e cosa tenere
-          presente quando si progetta o si implementa in modo accessibile un sistema
-          tipografico di questo tipo."
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *stefanominoia
-
-      apca.-e-tutto-ffd700-quel-che-luccica-1:
-        item_type: talk
-        track: *track_1
-        talk_title: "APCA. È tutto #FFD700 quel che luccica?"
-        talk_description: L’Accessible Perceptual Contrast Algorithm (APCA) si presenta come la
-          nuova frontiera nel mondo dell’accessibilità dei colori. Ma come funziona
-          davvero? Insieme scopriremo cosa lo differenzia dallo standard attuale, ne
-          indagheremo i vantaggi e gli svantaggi e definiremo le 5 cose da fare per
-          prepararsi all’arrivo delle WCAG 3.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *agneseragucci
-
-      css-4-future:-che-futuro-ci-attende-4:
-        item_type: talk
-        track: *track_1
-        talk_title: "CSS 4 Future: che futuro ci attende?"
-        talk_description: Ci addentreremo nei misteri di CSS4, versione attesa e avvolta da mistero,
-          che suscita tanta curiosità quanta incertezza. Il suo arrivo sembrava
-          improbabile, ma il dibattito si è riaperto con grande fermento.
-          Perlustreremo probabili innovazioni, rivedremo i motivi per i quali
-          pensavamo non sarebbe mai arrivata una nuova versione, e condivideremo
-          spunti e riflessioni sul futuro della modellazione dello stile.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *eleonorarocchi
-
-      utopia-system-a-volte-i-sogni-diventano-realta-6:
-        item_type: talk
-        track: *track_1
-        talk_title: Utopia system, a volte i sogni diventano realtà
-        talk_description: "Utopia è un design system che prova ad eliminare i più acerrimi nemici di
-          uno sviluppatore CSS: i breakpoint. In questo talk vedremo assieme come
-          implementare i concetti di questo fantastico design system e come può
-          aiutarci ad eliminare le frizioni tra dev e designers"
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *kevinshallvari
 
 
 
