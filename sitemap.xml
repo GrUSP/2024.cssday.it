@@ -2,21 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.cssday.it/welcome/cfp.html</loc>
+    <loc>https://2024.cssday.it/welcome/about.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.cssday.it/workshop/workshop_2.html</loc>
-    
-    <lastmod>2024-02-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.cssday.it/sponsor/index.html</loc>
+    <loc>https://2024.cssday.it/welcome/safety.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
@@ -24,6 +17,13 @@
   
   <url>
     <loc>https://2024.cssday.it/schedule/index.html</loc>
+    
+    <lastmod>2024-02-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.cssday.it/sponsor/index.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://2024.cssday.it/workshop/index.html</loc>
+    <loc>https://2024.cssday.it/welcome/index.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.cssday.it/welcome/index.html</loc>
+    <loc>https://2024.cssday.it/workshop/index.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
@@ -65,6 +65,13 @@
   </url>
   
   <url>
+    <loc>https://2024.cssday.it/welcome/cfp.html</loc>
+    
+    <lastmod>2024-02-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.cssday.it/welcome/coc.html</loc>
     
     <lastmod>2024-02-12</lastmod>
@@ -72,14 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2024.cssday.it/welcome/about.html</loc>
-    
-    <lastmod>2024-02-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.cssday.it/welcome/safety.html</loc>
+    <loc>https://2024.cssday.it/welcome/where.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://2024.cssday.it/welcome/where.html</loc>
+    <loc>https://2024.cssday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-02-12</lastmod>
     
