@@ -7,18 +7,18 @@
 conference:
   # Online-only conferences
   is_online_only: false
-  online_location: ""
-  online_location_title: ""
-  online_location_info: ""
+  online_location: "online"
+  online_location_title: "Internet"
+  online_location_info: "La conferenza si svolge da remoto"
 
   # menu and general params
   menu_buy_tickets_label: "Partecipa"
   # additional info for microdata / schema.org
-  #md_city: "Faenza"
-  #md_province: "RA"
-  #md_postal_code: "48018"
-  #md_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
-  organizer_url: "http://grusp.org/"
+  md_city: "Faenza"
+  md_province: "RA"
+  md_postal_code: "48018"
+  md_address: "Via Carlo Cesare Scaletta 10"
+  organizer_url: "https://grusp.org/"
   # contact email
   contact_email: "cssday@grusp.org"
   # these are for the hero section
