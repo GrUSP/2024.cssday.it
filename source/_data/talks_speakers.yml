@@ -182,18 +182,18 @@ days:
       opening:
         item_type: "service"
         start_datetime: 2024-04-05T09:30+02:00
-        end_datetime: 2024-04-05T09:45+02:00
+        end_datetime: 2024-04-05T09:50+02:00
         talk_title: "Intro by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2024-04-05T10:55+02:00
-        end_datetime: 2024-04-05T11:25+02:00
+        start_datetime: 2024-04-05T11:10+02:00
+        end_datetime: 2024-04-05T11:40+02:00
         talk_title: "Pausa Caffé"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2024-04-05T13:10+02:00
-        end_datetime: 2024-04-05T14:30+02:00
+        start_datetime: 2024-04-05T13:00+02:00
+        end_datetime: 2024-04-05T14:20+02:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
       coffee-afternoon:
@@ -204,8 +204,8 @@ days:
         service_icon: "coffee"
       closing:
         item_type: "service"
-        start_datetime: 2024-04-05T17:20+02:00
-        end_datetime: 2024-04-05T17:30+02:00
+        start_datetime: 2024-04-05T17:30+02:00
+        end_datetime: 2024-04-05T17:40+02:00
         talk_title: "Saluti da GrUSP"
 
 
@@ -223,26 +223,26 @@ days:
           simulano il comportamento di oggetti dotati inerzia, attriti e forze di
           interazione.
         talk_video_url: ""
-        start_datetime: 2024-04-05T09:45+02:00
-        end_datetime: 2024-04-05T10:20+02:00
+        start_datetime: 2024-04-05T09:50+02:00
+        end_datetime: 2024-04-05T10:30+02:00
         speakers:
           speaker_1: *enricogiacomazzi
 
-      css-4-future:-che-futuro-ci-attende-4:
-        item_type: talk
-        track: *track_1
-        talk_title: "CSS 4 Future: che futuro ci attende?"
-        talk_description: Ci addentreremo nei misteri di CSS4, versione attesa e avvolta da mistero,
-          che suscita tanta curiosità quanta incertezza. Il suo arrivo sembrava
-          improbabile, ma il dibattito si è riaperto con grande fermento.
-          Perlustreremo probabili innovazioni, rivedremo i motivi per i quali
-          pensavamo non sarebbe mai arrivata una nuova versione, e condivideremo
-          spunti e riflessioni sul futuro della modellazione dello stile.
-        talk_video_url: ""
-        start_datetime: 2024-04-05T10:20+02:00
-        end_datetime: 2024-04-05T10:55+02:00
-        speakers:
-          speaker_1: *eleonorarocchi
+      # css-4-future:-che-futuro-ci-attende-4:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: "CSS 4 Future: che futuro ci attende?"
+      #   talk_description: Ci addentreremo nei misteri di CSS4, versione attesa e avvolta da mistero,
+      #     che suscita tanta curiosità quanta incertezza. Il suo arrivo sembrava
+      #     improbabile, ma il dibattito si è riaperto con grande fermento.
+      #     Perlustreremo probabili innovazioni, rivedremo i motivi per i quali
+      #     pensavamo non sarebbe mai arrivata una nuova versione, e condivideremo
+      #     spunti e riflessioni sul futuro della modellazione dello stile.
+      #   talk_video_url: ""
+      #   start_datetime: 2024-04-05T10:20+02:00
+      #   end_datetime: 2024-04-05T10:55+02:00
+      #   speakers:
+      #     speaker_1: *eleonorarocchi
 
       come-distruggere-l'accessibilita-2:
         item_type: talk
@@ -253,8 +253,8 @@ days:
           a scoprire con ironia tutto quello che facciamo per comportarci come
           inconsapevoli ribelli e combatterla fino a distruggerla.
         talk_video_url: ""
-        start_datetime: 2024-04-05T11:25+02:00
-        end_datetime: 2024-04-05T12:00+02:00
+        start_datetime: 2024-04-05T10:30+02:00
+        end_datetime: 2024-04-05T11:10+02:00
         speakers:
           speaker_1: *claudiocaciagli
 
@@ -268,8 +268,8 @@ days:
           indagheremo i vantaggi e gli svantaggi e definiremo le 5 cose da fare per
           prepararsi all’arrivo delle WCAG 3.
         talk_video_url: ""
-        start_datetime: 2024-04-05T12:00+02:00
-        end_datetime: 2024-04-05T12:35+02:00
+        start_datetime: 2024-04-05T11:40+02:00
+        end_datetime: 2024-04-05T12:20+02:00
         speakers:
           speaker_1: *agneseragucci
 
@@ -294,8 +294,8 @@ days:
           presente quando si progetta o si implementa in modo accessibile un sistema
           tipografico di questo tipo."
         talk_video_url: ""
-        start_datetime: 2024-04-05T12:35+02:00
-        end_datetime: 2024-04-05T13:10+02:00
+        start_datetime: 2024-04-05T12:20+02:00
+        end_datetime: 2024-04-05T13:00+02:00
         speakers:
           speaker_1: *stefanominoia
 
@@ -308,8 +308,8 @@ days:
           implementare i concetti di questo fantastico design system e come può
           aiutarci ad eliminare le frizioni tra dev e designers"
         talk_video_url: ""
-        start_datetime: 2024-04-05T14:30+02:00
-        end_datetime: 2024-04-05T15:05+02:00
+        start_datetime: 2024-04-05T14:20+02:00
+        end_datetime: 2024-04-05T15:00+02:00
         speakers:
           speaker_1: *kevinshallvari
 
@@ -330,7 +330,7 @@ days:
           avrai gli strumenti per domarli, così ti resterà più tempo per le
           dipendenze che contano… tipo la Nutella :)
         talk_video_url: ""
-        start_datetime: 2024-04-05T15:05+02:00
+        start_datetime: 2024-04-05T15:00+02:00
         end_datetime: 2024-04-05T15:40+02:00
         speakers:
           speaker_1: *lucadelpuppo
@@ -353,7 +353,7 @@ days:
           degli stili ben organizzati.
         talk_video_url: ""
         start_datetime: 2024-04-05T16:10+02:00
-        end_datetime: 2024-04-05T16:45+02:00
+        end_datetime: 2024-04-05T16:50+02:00
         speakers:
           speaker_1: *massimoartizzu
 
@@ -378,8 +378,8 @@ days:
           "Developerus Neanderthalus" a "Homo Sapiens CSSensis", per intraprendere
           finalmente un viaggio nell'infinito spazio dello stile a cascata.
         talk_video_url: ""
-        start_datetime: 2024-04-05T16:45+02:00
-        end_datetime: 2024-04-05T17:20+02:00
+        start_datetime: 2024-04-05T16:50+02:00
+        end_datetime: 2024-04-05T17:30+02:00
         speakers:
           speaker_1: *danielabonvini
 
